@@ -1,4 +1,6 @@
-function runCondenseFolders("type path here");
+function runCondenseFolders(){
+  condenseFolders("path here");
+}
 
 function condenseFolders(path){
   var newFolderName = "2017-2018";
