@@ -1,6 +1,6 @@
-function condenseFolders(){
+function condenseFolders(path){
   var newFolderName = "2017-2018";
-  var cmfolders = DriveApp.getFolderById("1O8d15q_YTAmskUrYkxOjOa1PDm7YOxXh").getFolders();
+  var cmfolders = DriveApp.getFolderById(path).getFolders();
   
   while (cmfolders.hasNext()) {
     
